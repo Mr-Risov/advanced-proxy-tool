@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Proxy Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Advanced Proxy Tool</h>
+        </header>
+
+        <div id="mode-display" class="mode-display">
+            <p>Mode: <strong id="current-mode">Fetch</strong></p>
+            <button id="toggle-mode">Switch to Checker</button>
+        </div>
+
+        <div id="fetch-section" class="section">
+            <input type="number" id="proxy-limit" placeholder="Number of Proxies (Default: 10)" />
+            <button id="fetch-proxies-btn">Fetch Proxies</button>
+            <button id="download-btn">Download Alive Proxies</button>
+        </div>
+
+        <div id="checker-section" class="section hidden">
+            <textarea id="manual-proxies" placeholder="Add custom proxies (e.g., IP:PORT, one per line)"></textarea>
+            <button id="check-custom-btn">Check Custom Proxies</button>
+        </div>
+
+        <div class="summary">
+            <p>Total Alive: <span id="alive-count">0</span></p>
+            <p>Total Dead: <span id="dead-count">0</span></p>
+        </div>
+
+        <div class="progress-bar">
+            <div id="progress" class="progress"></div>
+        </div>
+
+        <div id="proxy-list" class="proxy-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
