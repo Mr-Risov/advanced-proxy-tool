@@ -19,6 +19,6 @@ The **Advanced Proxy Management Tool** is a web-based application designed to si
 - **IP Location API**: [IP-API](http://ip-api.com).
 
 ## How to Use
- **Visit**: [Live demo website](mr-risov.github.io/advanced-proxy-tool).
+ **Visit**: [Live demo website](https://mr-risov.github.io/advanced-proxy-tool).
 
  Enjoy 
